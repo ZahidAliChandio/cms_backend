@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/styles/dashboard.css" />
+    <link rel="icon" href="images/D logo.svg" />
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="leftsection">
+        <div id="designerslogo">
+          <img src="images/Designer logo.svg" alt="" />
+        </div>
+        <ul>
+          <li>
+            <span><img src="images/home icon.svg" alt="" /></span> Home
+          </li>
+          <li>
+            <span><img src="images/profile icon.svg" alt="" /></span>Profile
+          </li>
+          <li>
+            <span><img src="images/grade icon.svg" alt="" /></span>Results
+          </li>
+          <li>
+            <span><img src="images/courses icon.svg" alt="" /></span>Courses
+          </li>
+          <li>
+            <span><img src="images/project icon.svg" alt="" /></span>Projects
+          </li>
+          <li>
+            <span><img src="images/invoice icon.svg" alt="" /></span>Invoices
+          </li>
+          <li>
+            <span><img src="images/attendance icon.svg" alt="" /></span
+            >Attendance
+          </li>
+        </ul>
+      </div>
+      <div id="middlesection">
+        <h1>Department of Computer Software Engineering, MCS</h1>
+        <div id="tablediv">
+          <h1 id="resulttable">Results</h1>
+          <table>
+            <!-- <caption>Attendance Table</caption> -->
+            <thead>
+              <tr>
+                <th scope="col" class="assessment">Assessment</th>
+                <th scope="col" class="max-marks">Max Marks</th>
+                <th scope="col" class="obtained-marks">Obtained Marks</th>
+                <th scope="col" class="percentage">Percentage</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="assessment">Assignment-1</td>
+                <td class="max-marks">10</td>
+                <td class="obtained-marks">9</td>
+                <td class="percentage">90%</td>
+              </tr>
+              <tr>
+                <td scope="row" class="assessment">Assignment-2</td>
+                <td class="max-marks">10</td>
+                <td class="obtained-marks">8</td>
+                <td class="percentage">80%</td>
+              </tr>
+              <tr>
+                <td scope="row" class="assessment">Assignment-3</td>
+                <td class="max-marks">10</td>
+                <td class="obtained-marks">5</td>
+                <td class="percentage">50%</td>
+              </tr>
+              <tr>
+                <td scope="row" class="assessment">Quiz-1</td>
+                <td class="max-marks">10</td>
+                <td class="obtained-marks">10</td>
+                <td class="percentage">100%</td>
+              </tr>
+              <tr>
+                <td scope="row" class="assessment">Quiz-2</td>
+                <td class="max-marks">10</td>
+                <td class="obtained-marks">7</td>
+                <td class="percentage">70%</td>
+              </tr>
+              <tr>
+                <td scope="row" class="assessment">Quiz-3</td>
+                <td class="max-marks">10</td>
+                <td class="obtained-marks">8</td>
+                <td class="percentage">80%</td>
+              </tr>
+              <tr>
+                <td scope="row" class="assessment">OHT-1</td>
+                <td class="max-marks">15</td>
+                <td class="obtained-marks">8</td>
+                <td class="percentage">56%</td>
+              </tr>
+              <tr>
+                <td scope="row" class="assessment">OHT-2</td>
+                <td class="max-marks">15</td>
+                <td class="obtained-marks">10</td>
+                <td class="percentage">66.66%</td>
+              </tr>
+              <tr>
+                <td scope="row" class="assessment">Final</td>
+                <td class="max-marks">50</td>
+                <td class="obtained-marks">40</td>
+                <td class="percentage">80%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div id="rightsection">
+        <div id="innerrightdiv">
+          <div id="profilepic">
+            <img src="images/avatar.svg" alt="" />
+          </div>
+          <h2 id="fullname">Sara Malik</h2>
+          <h4 id="batchname">BESE-25</h4>
+          <div id="calendardiv">
+            <div id="month">February</div>
+            <div id="calendarheader">
+              <div>Mon</div>
+              <div>Tue</div>
+              <div>Wed</div>
+              <div>Thu</div>
+              <div>Fri</div>
+              <div>Sat</div>
+              <div>Sun</div>
+            </div>
+            <div id="calendardays">
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+              <div class="day"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/scripts/calender.js"></script>
+    <script src="/scripts/attendance.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Web Project HTML CSS Jquery AJAX Express Node Jade",
+  "main": "app.js",
+  "scripts": {
+    "devStart": "nodemon src/app.js -e js,jade"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "hbs": "^4.2.0",
+    "jade": "^0.29.0",
+    "mongoose": "^6.1.8",
+    "nodemon": "^2.0.15"
+  }
+}
