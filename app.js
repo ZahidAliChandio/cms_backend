@@ -208,6 +208,16 @@ app.post("/admin/modify_db", async (req, res) => {
   }
 });
 
+app.get("/faculty/courses", async (req, res) => {
+  try {
+    const userId = req.body.userId;
+    const courses = await course.find({ userId });
+    console.log(courses);
+    res.status(200).json({ results: courses });
+  } catch (err) {
+    res.status(400).send("Invalid username or password");
+  }
+});
 app.get("/student/courses", async (req, res) => {
   try {
     const userId = req.body.userId;
